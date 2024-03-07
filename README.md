@@ -52,4 +52,4 @@ uvicorn app.main:app --host 0.0.0.0 --reload
 ```
 *Note: Remember to revert the `os.environ['DATABASE_URL'] = ...` line back to its original commented state when switching back to Docker deployment.*
 
-## 以上做完以後進入frontend目錄下輸入npm install 再輸入 npm run dev
+### 以上做完以後進入frontend目錄下輸入npm install 再輸入 npm run dev
