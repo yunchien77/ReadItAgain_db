@@ -1,5 +1,8 @@
 # ReadItAgain
 
+A buying and selling platform specially created for second-hand books
+
+
 ## Installation and Setup
 
 ### For Docker Deployment
@@ -25,7 +28,7 @@ exit                                # exit container
 ```
 *Note: Ensure that in `backend/app/config.py`, the line `os.environ['DATABASE_URL'] = ...` remains commented when deploying with Docker.*
 
-### 請使用 Local 部署
+### Please use **Local** deployment
 
 1. **Setting Up the Local Environment:**
 To set up your project for local development, follow these steps:
@@ -52,4 +55,12 @@ uvicorn app.main:app --host 0.0.0.0 --reload
 ```
 *Note: Remember to revert the `os.environ['DATABASE_URL'] = ...` line back to its original commented state when switching back to Docker deployment.*
 
-### 以上做完以後進入frontend目錄下輸入npm install 再輸入 npm run dev
+4. **After completing the above, enter the `frontend` directory and enter `npm install` and then npm run dev**
+
+
+## Demo
+
+[User perspective](https://drive.google.com/file/d/15nAt1odtDrwE6dsmUKMdBnjC9Y3KwSEA/view)
+
+
+
